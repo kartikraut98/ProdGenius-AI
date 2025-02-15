@@ -1,0 +1,32 @@
+{
+    "B000050B3H": {
+        "bias_detected_count": 0,
+        "bias_types": [],
+        "num_reviews": 20,
+        "review_sentiments": {
+            "positive": 10,
+            "neutral": 3,
+            "negative": 6
+        }
+    },
+    "B00004YO15": {
+        "bias_detected_count": 0,
+        "bias_types": [],
+        "num_reviews": 20,
+        "review_sentiments": {
+            "positive": 17,
+            "neutral": 0,
+            "negative": 3
+        }
+    },
+    "1933054395": {
+        "bias_detected_count": 0,
+        "bias_types": [],
+        "num_reviews": 20,
+        "review_sentiments": {
+            "positive": 19,
+            "neutral": 1,
+            "negative": 0
+        }
+    }
+}

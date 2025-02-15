@@ -1,0 +1,18 @@
+{
+    "context_precision": {
+        "reasoning": 0.8571428570571429,
+        "simple": 0.9999999999000001
+    },
+    "faithfulness": {
+        "reasoning": 0.5888888888888889,
+        "simple": 0.4560472186281445
+    },
+    "answer_relevancy": {
+        "reasoning": 0.6561139603097191,
+        "simple": 0.6686776137723124
+    },
+    "context_recall": {
+        "reasoning": 1.0,
+        "simple": 1.0
+    }
+}
