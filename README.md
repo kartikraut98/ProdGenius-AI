@@ -1,9 +1,9 @@
-# eCommerce-Chatbot using LangGraph (Verta)
+# ProdGenius AI
 
 
 ## Introduction
 
-The **Verta Chatbot** project is a sophisticated AI-driven solution designed to enhance user interactions with product information. Deployed as a serverless **FASTAPI** API on **Cloud Run**, it serves users by answering questions about products, leveraging both metadata and user reviews for context. The chatbot utilizes a multi-agent workflow, with distinct agents performing specialized roles. A **Metadata Agent** is responsible for summarizing product descriptions, while a **Retriever Agent** fetches relevant data from a vector store containing user reviews. This allows the chatbot to answer a wide range of user inquiries, drawing on both product details and feedback from other customers.
+The ProdGenius AI project is a sophisticated AI-driven solution designed to enhance user interactions with product information. Deployed as a serverless **FASTAPI** API on **Cloud Run**, it serves users by answering questions about products, leveraging both metadata and user reviews for context. The chatbot utilizes a multi-agent workflow, with distinct agents performing specialized roles. A **Metadata Agent** is responsible for summarizing product descriptions, while a **Retriever Agent** fetches relevant data from a vector store containing user reviews. This allows the chatbot to answer a wide range of user inquiries, drawing on both product details and feedback from other customers.
 
 The database for this solution is hosted on **PostgreSQL** in **Google Cloud Platform (GCP)**, ensuring scalable, reliable storage. The project utilizes **CI/CD pipelines** via **GitHub Actions**, automating code deployment and ensuring seamless integration and delivery. Additionally, the system incorporates **LLM-as-Judge** to generate synthetic test questions for a set of products, while **bias detection** algorithms analyze potential biases in the chatbot's responses to ensure fairness and accuracy.
 
